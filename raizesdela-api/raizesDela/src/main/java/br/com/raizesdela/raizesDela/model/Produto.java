@@ -26,7 +26,7 @@ public class Produto {
 		private double valor;
 		
 		private String imagem;
-		@NotNull
+		
 		private long estoque;
 		@ManyToOne
 		@JsonIgnoreProperties("produto")
