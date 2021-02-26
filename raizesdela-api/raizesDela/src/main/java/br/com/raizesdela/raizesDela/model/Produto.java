@@ -22,8 +22,7 @@ public class Produto {
 		@NotNull
 		@Size(min=2, max=200)
 		private String descricao;
-		@NotNull
-		@Size(min=2, max=100)
+		
 		private double valor;
 		@NotNull
 		private String imagem;
