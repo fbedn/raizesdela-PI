@@ -24,7 +24,7 @@ public class Produto {
 		private String descricao;
 		
 		private double valor;
-		@NotNull
+		
 		private String imagem;
 		@NotNull
 		private long estoque;
