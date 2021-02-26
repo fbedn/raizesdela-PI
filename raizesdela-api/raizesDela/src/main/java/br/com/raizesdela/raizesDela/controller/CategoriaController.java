@@ -49,4 +49,8 @@ public class CategoriaController {
 	public ResponseEntity<Categoria> put (@RequestBody Categoria categoria){
 		return ResponseEntity.status(HttpStatus.OK).body(repository.save(categoria));
 	}
+	@DeleteMapping("/{id}")
+	public void delete(@PathVariable long id) {
+		repository.deleteById(id);
+	}
 }
