@@ -19,10 +19,11 @@ public class Produto {
 	@NotNull
 	@Size(min=2, max=100)
 	private String nome;
-	@NotNull
+	
 	@Size(min=2, max=200)
 	private String descricao;
 	
+	@NotNull
 	private double valor;
 	
 	private String imagem;
