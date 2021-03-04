@@ -10,6 +10,15 @@ public class UsuarioLogin {
 	private String senha;
 	
 	private String token;
+	
+	private String tipoUsuario;
+	
+	public String getTipoUsuario() {
+		return tipoUsuario;
+	}
+	public void setTipoUsuario(String tipoUsuario) {
+		this.tipoUsuario = tipoUsuario;
+	}
 
 	public String getNome() {
 		return nome;
