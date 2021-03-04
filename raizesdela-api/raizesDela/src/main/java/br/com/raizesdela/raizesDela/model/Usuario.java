@@ -23,7 +23,15 @@ public class Usuario {
 	@NotNull
 	@Size(min=6, max=100)
 	private String senha;
-		
+	
+	private String tipoUsuario;
+	
+	public String getTipoUsuario() {
+		return tipoUsuario;
+	}
+	public void setTipoUsuario(String tipoUsuario) {
+		this.tipoUsuario = tipoUsuario;
+	}
 	public long getId() {
 		return id;
 	}
