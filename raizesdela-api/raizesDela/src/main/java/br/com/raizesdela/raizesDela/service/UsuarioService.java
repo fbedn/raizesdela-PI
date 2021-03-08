@@ -41,7 +41,7 @@ public final class UsuarioService {
 			user.get().setNome(usuario.get().getNome());
 			
 			user.get().setSenha(usuario.get().getSenha());
-			user.get().setTipoUsuario(usuario.get().getTipoUsuario());
+			user.get().setTipoVendedor(usuario.get().getTipoVendedor());
 			
 			return user;
 			

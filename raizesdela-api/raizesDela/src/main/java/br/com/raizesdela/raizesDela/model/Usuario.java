@@ -26,10 +26,10 @@ public class Usuario {
 	
 	private boolean tipoVendedor;
 	
-	public boolean getTipoUsuario() {
+	public boolean getTipoVendedor() {
 		return tipoVendedor;
 	}
-	public void setTipoUsuario(boolean tipoVendedor) {
+	public void setTipoVendedor(boolean tipoVendedor) {
 		this.tipoVendedor = tipoVendedor;
 	}
 	public long getId() {
