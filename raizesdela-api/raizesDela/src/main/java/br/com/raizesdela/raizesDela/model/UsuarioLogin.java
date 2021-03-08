@@ -11,13 +11,13 @@ public class UsuarioLogin {
 	
 	private String token;
 	
-	private String tipoUsuario;
+	private boolean tipoVendedor;
 	
-	public String getTipoUsuario() {
-		return tipoUsuario;
+	public boolean getTipoVendedor() {
+		return tipoVendedor;
 	}
-	public void setTipoUsuario(String tipoUsuario) {
-		this.tipoUsuario = tipoUsuario;
+	public void setTipoVendedor(boolean tipoVendedor) {
+		this.tipoVendedor = tipoVendedor;
 	}
 
 	public String getNome() {
