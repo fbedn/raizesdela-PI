@@ -24,13 +24,13 @@ public class Usuario {
 	@Size(min=6, max=100)
 	private String senha;
 	
-	private String tipoUsuario;
+	private boolean tipoVendedor;
 	
-	public String getTipoUsuario() {
-		return tipoUsuario;
+	public boolean getTipoUsuario() {
+		return tipoVendedor;
 	}
-	public void setTipoUsuario(String tipoUsuario) {
-		this.tipoUsuario = tipoUsuario;
+	public void setTipoUsuario(boolean tipoVendedor) {
+		this.tipoVendedor = tipoVendedor;
 	}
 	public long getId() {
 		return id;
