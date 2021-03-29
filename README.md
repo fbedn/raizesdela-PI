@@ -12,7 +12,8 @@
 Projeto integrador proposto pelo bootcamp Generation Brasil, para finalizar o curso. Nesse repositório é possível ver o código do back-end do e-commerce, para acessar o front-end é só <a href="https://github.com/ddsp-pinheiro/raizesdela-front/">clicar aqui</a>
 
 <h2>Imagens</h2>
-Aqui colocar imagens do site quando finalizado 
+![image](https://user-images.githubusercontent.com/72114647/112852813-a7c84400-9082-11eb-8157-2e774fb70d3b.png)
+<h6>Interação entre as tabelas no banco de dados</h6>
 
 <h2>Funcionalidades da aplicação</h2>
 
@@ -25,12 +26,9 @@ Aqui colocar imagens do site quando finalizado
 
 
 <h2>Tecnologias utilizadas</h2>
-<img alt="TypeScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-<img alt="TypeScript" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img alt="TypeScript" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white"/>
-<img alt="TypeScript" src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/>
-<img alt="TypeScript" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/>
-<img alt="TypeScript" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
+<img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>
+<img alt="Spring" src="https://img.shields.io/badge/spring%20-%236DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white"/>
+<img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
 
 
 ### Integrantes:
