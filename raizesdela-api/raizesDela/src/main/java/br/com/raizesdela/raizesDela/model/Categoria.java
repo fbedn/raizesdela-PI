@@ -29,7 +29,8 @@ public class Categoria {
 	private String classificacao;
 	@NotNull
 	private boolean ativo;
-	@OneToMany(mappedBy = "categoria", cascade = CascadeType.ALL)
+	
+	@OneToMany(mappedBy = "categoria", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("categoria")
 	private List <Produto> produto;
 	
@@ -73,4 +74,5 @@ public class Categoria {
 	public void setAtivo(boolean ativo) {
 		this.ativo = ativo;
 	}
+	
 }

@@ -2,6 +2,7 @@ package br.com.raizesdela.raizesDela.model;
 
 
 public class UsuarioLogin {
+	private long id;
 	
 	private String nome;
 	
@@ -13,6 +14,13 @@ public class UsuarioLogin {
 	
 	private boolean tipoVendedor;
 	
+	
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
 	public boolean getTipoVendedor() {
 		return tipoVendedor;
 	}

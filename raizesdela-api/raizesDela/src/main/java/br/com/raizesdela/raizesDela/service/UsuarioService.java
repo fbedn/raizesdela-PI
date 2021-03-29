@@ -39,9 +39,8 @@ public final class UsuarioService {
 			String authHeader = "Basic "+ new String(encondedAuth);
 			user.get().setToken(authHeader);
 			user.get().setNome(usuario.get().getNome());
-			
-			user.get().setSenha(usuario.get().getSenha());
 			user.get().setTipoVendedor(usuario.get().getTipoVendedor());
+			user.get().setId(usuario.get().getId());
 			
 			return user;
 			
