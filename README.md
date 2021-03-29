@@ -12,7 +12,7 @@
 Projeto integrador proposto pelo bootcamp Generation Brasil, para finalizar o curso. Nesse repositório é possível ver o código do back-end do e-commerce, para acessar o front-end é só <a href="https://github.com/ddsp-pinheiro/raizesdela-front/">clicar aqui</a>
 
 <h2>Imagens</h2>
-![image](https://user-images.githubusercontent.com/72114647/112852813-a7c84400-9082-11eb-8157-2e774fb70d3b.png)
+<img alt="Tabelas" src="https://user-images.githubusercontent.com/72114647/112852813-a7c84400-9082-11eb-8157-2e774fb70d3b.png"/>
 <h6>Interação entre as tabelas no banco de dados</h6>
 
 <h2>Funcionalidades da aplicação</h2>
