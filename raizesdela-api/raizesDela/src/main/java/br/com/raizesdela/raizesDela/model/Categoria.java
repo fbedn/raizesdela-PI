@@ -24,11 +24,6 @@ public class Categoria {
 	@NotNull
 	@Size(min=2, max=100)
 	private String nome;
-	@NotNull
-	@Size(min=2, max=100)
-	private String classificacao;
-	@NotNull
-	private boolean ativo;
 	
 	@OneToMany(mappedBy = "categoria", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("categoria")
@@ -59,20 +54,6 @@ public class Categoria {
 		this.nome = nome;
 	}
 
-	public String getClassificacao() {
-		return classificacao;
-	}
 
-	public void setClassificacao(String classificacao) {
-		this.classificacao = classificacao;
-	}
-
-	public boolean isAtivo() {
-		return ativo;
-	}
-
-	public void setAtivo(boolean ativo) {
-		this.ativo = ativo;
-	}
 	
 }
