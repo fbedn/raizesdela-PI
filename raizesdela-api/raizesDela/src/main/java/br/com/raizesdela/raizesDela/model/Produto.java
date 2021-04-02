@@ -23,6 +23,8 @@ public class Produto {
 	@Size(min=2, max=200)
 	private String descricao;
 	
+	private boolean noCarrinho;
+	
 	@NotNull
 	private double valor;
 	
@@ -84,6 +86,13 @@ public class Produto {
 	}
 	public void setUsuario(Categoria usuario) {
 		this.usuario = usuario;
+	}
+	
+	public boolean isNoCarrinho() {
+		return noCarrinho;
+	}
+	public void setNoCarrinho(boolean noCarrinho) {
+		this.noCarrinho = noCarrinho;
 	}
 		
 }
