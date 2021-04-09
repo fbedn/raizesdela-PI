@@ -36,6 +36,8 @@ public class Usuario {
 	
 	private boolean tipoVendedor;
 	
+	private boolean tipoAdministrador;
+	
 	public boolean getTipoVendedor() {
 		return tipoVendedor;
 	}
@@ -71,6 +73,12 @@ public class Usuario {
 	}
 	public void setProduto(List<Produto> produto) {
 		this.produto = produto;
+	}
+	public boolean isTipoAdministrador() {
+		return tipoAdministrador;
+	}
+	public void setTipoAdministrador(boolean tipoAdministrador) {
+		this.tipoAdministrador = tipoAdministrador;
 	}
 	
 }
