@@ -14,6 +14,7 @@ public class UsuarioLogin {
 	
 	private boolean tipoVendedor;
 	
+	private boolean tipoAdministrador;
 	
 	public long getId() {
 		return id;
@@ -60,6 +61,12 @@ public class UsuarioLogin {
 		this.token = token;
 	}
 	
-	
+	public boolean isTipoAdministrador() {
+		return tipoAdministrador;
+	}
+
+	public void setTipoAdministrador(boolean tipoAdministrador) {
+		this.tipoAdministrador = tipoAdministrador;
+	}
 
 }
