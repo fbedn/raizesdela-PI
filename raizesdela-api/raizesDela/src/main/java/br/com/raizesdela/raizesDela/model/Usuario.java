@@ -34,6 +34,10 @@ public class Usuario {
 	@JsonIgnoreProperties("usuario")
 	private List <Produto> produto;
 	
+	@OneToMany(mappedBy = "usuario", cascade = CascadeType.REMOVE)
+	@JsonIgnoreProperties("usuario")
+	private List <Comentario> comentario;
+	
 	private boolean tipoVendedor;
 	
 	private boolean tipoAdministrador;
