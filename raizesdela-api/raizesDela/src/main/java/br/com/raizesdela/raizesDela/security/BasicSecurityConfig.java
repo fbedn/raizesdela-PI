@@ -46,6 +46,8 @@ public class BasicSecurityConfig extends WebSecurityConfigurerAdapter{
 		.antMatchers("/categoria").permitAll()
 		.antMatchers("/categoria/{id}").permitAll()
 		.antMatchers("/categoria/nome/{nome}").permitAll()
+		.antMatchers("/comentarios").permitAll()
+		.antMatchers("/comentarios/{id}").permitAll()
 		.anyRequest().authenticated().and().httpBasic().and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
 		.and().cors().and().csrf().disable();
 	}
