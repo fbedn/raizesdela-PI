@@ -1,8 +1,10 @@
 <h2>Status</h2>
- 🚧   Em construção...  🚧
+<a href="https://raizes-dela.herokuapp.com/home" target="_blank">✅Pronto✅</a> (aguarde novas atualizações...)
 
 <p align="center">
+<a target="_blank" href="https://raizes-dela.herokuapp.com/home">
   <img src="https://user-images.githubusercontent.com/72114647/112768649-59b82f80-8ff3-11eb-9453-a14ca99adaec.png" alt="Raízes dela image"/>
+  </a>
 </p>
 
 <h4 align="center">Um e-commerce voltado para mulheres que querem promover produtos orgânicos e sustentáveis e dessa forma conseguirem renda para o sustento próprio e familiar.</h4>
